@@ -37,25 +37,38 @@
     </div>
 
     <!-- Remaining steps (5-9) outside of the grid layout -->
-    <h3>Step 5: Initialize a new Git repository</h3>
+      <h3>Step 5: Initialize a new Git repository</h3>
     <p>Run the following command to initialize a new Git repository:</p>
-    <pre><code>git init</code></pre>
-
+    <pre><code>git init</code>    <button onclick="copyToClipboard('git init')">Copy</button>
+    </pre>
+    
     <h3>Step 6: Add your files to the staging area</h3>
     <p>Add all the files in your project directory to the staging area using the following command:</p>
-    <pre><code>git add .</code></pre>
-
+    <pre><code>git add .</code>    <button onclick="copyToClipboard('git add .')">Copy</button>
+    </pre>
+    
     <h3>Step 7: Commit your changes</h3>
     <p>Commit your changes with a meaningful commit message:</p>
-    <pre><code>git commit -m "Initial commit"</code></pre>
-
+    <pre><code>git commit -m "Initial commit"</code> <button onclick="copyToClipboard('git commit -m &quot;Initial commit&quot;')">Copy</button></pre>
+   
+    
     <h3>Step 8: Push your changes to the remote repository</h3>
     <p>Push your changes to the remote repository:</p>
-    <pre><code>git push -u origin main</code></pre>
-
+    <pre><code>git push -u origin main</code>    <button onclick="copyToClipboard('git push -u origin main')">Copy</button>
+    </pre>
+    
     <h3>Step 9: Verify the changes on GitHub</h3>
     <p>Go back to your GitHub repository and verify that your changes have been pushed successfully.</p>
 
     <p>Congratulations! You have successfully set up a GitHub repository for your project.</p>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Copied to clipboard');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+        </script>
 </body>
 </html>
