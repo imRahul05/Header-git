@@ -1,0 +1,17 @@
+body{
+   background-color: #212121;
+   color: antiquewhite;
+   font-family: 'Courier New', Courier, monospace;
+   align-items: center;
+   text-align: center;
+}
+
+.image{
+    width: 60%;    
+    height: 700px;
+}
+code{
+    font-size: 20px;
+    background-color: rgb(18, 85, 10);
+    color: rgb(20, 12, 103);
+}
