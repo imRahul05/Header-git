@@ -11,7 +11,7 @@ body{
 h1{
     background-color: beige;
     color: #410bc8;
-  
+    font-weight:bold;
 }
 .grid-container {
     display: grid;
