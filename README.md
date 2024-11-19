@@ -18,7 +18,7 @@ This guide will walk you through the steps to set up a GitHub repository.
 
 Go to your GitHub account and click on the "New" button to create a new repository.
 
-![Create Repository](./assets/1.png)
+![Create Repository](./assets/11.png)
 
 ## Step 2: Set Up GitHub Repo
 
