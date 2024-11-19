@@ -39,3 +39,48 @@ code {
     font-size: 1rem;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Stack grid items vertically */
+        gap: 10px; /* Reduce space between grid items */
+    }
+
+    h1 {
+        font-size: 1.8rem; /* Make header text smaller */
+    }
+
+    h3 {
+        font-size: 1.2rem; /* Make subheader text smaller */
+    }
+
+    .grid-item {
+        padding: 10px;
+    }
+
+    pre code {
+        font-size: 0.9rem; /* Smaller font size for code blocks */
+    }
+}
+
+/* For extra small screens (max-width: 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Further reduce header text size */
+    }
+
+    h3 {
+        font-size: 1rem; /* Further reduce subheader text size */
+    }
+
+    .grid-item {
+        padding: 8px;
+    }
+
+    .image {
+        width: 100%; /* Ensure images are responsive */
+    }
+
+    pre code {
+        font-size: 0.8rem; /* Smaller font size for code blocks */
+    }
+}
