@@ -152,4 +152,8 @@ button{
 button:hover {
     transform: scale(1.05);
 }
-
+.custom-underline {
+      display: inline-block;
+      border-bottom: 3px solid orange; /* Custom color and thickness */
+      padding-bottom: 2px; /* Optional spacing between text and the underline */
+    }
