@@ -36,8 +36,11 @@ Go to the code button inside your repo and copy the HTTPS link.
 
 Use the `cd` command to navigate to the directory of your project.
 
+```sh
+cd your-project-directory
+```
 
-##Step 5: Initialize a New Git Repository
+## Step 5: Initialize a New Git Repository
 Initialize a new Git repository in your project directory using the following command:
 ```sh
 git init
