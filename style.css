@@ -6,7 +6,13 @@ body{
    align-items: center;
    text-align: center;
    text-shadow: 8px 8px 10px #0000008c;
+    background-image: url('https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover; 
+     background-repeat: no-repeat; 
+     background-attachment: fixed; 
+     background-blend-mode: overlay; 
 }
+
 
 /* h1{
     background-color: beige;
